@@ -1,0 +1,11 @@
+[33mcommit 7f2c52e182d1c4956564d9709ebdb090183fed43[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Renato Meza <254360150+renatomeza17@users.noreply.github.com>
+Date:   Sun Mar 22 22:53:33 2026 -0500
+
+    Agregar archivos de proyecto.
+
+[33mcommit 8fa8e4a7cd66c0445a21a07459aafdd1aec91820[m
+Author: Renato Meza <254360150+renatomeza17@users.noreply.github.com>
+Date:   Sun Mar 22 22:53:29 2026 -0500
+
+    Agregar .gitattributes y .gitignore.
