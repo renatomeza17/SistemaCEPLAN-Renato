@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Cuenta Activada";
+}
+
+<div class="bg-ceplan-confirm">
+    <div class="row justify-content-center align-items-center" style="min-height: 80vh;">
+        <div class="col-md-5">
+            <div class="card login-card text-center p-5 shadow-sm">
+                <img src="~/images/cohete.svg" alt="Cuenta Activada" class="confirm-icon mx-auto d-block" />
+
+                <h3 class="welcome-text mb-4">¡Bienvenida, July!</h3>
+
+                <div class="text-muted mb-4" style="line-height: 1.8;">
+                    Su cuenta en el aplicativo X está activada.
+                    <br />
+                    Ya puede iniciar sesión.
+                </div>
+                <a asp-controller="Login" asp-action="Index" class="btn w-100 py-2 mt-3" 
+                      style="background-color: #0056b3; color: white; border-radius: 25px; font-weight: bold;">
+                        Iniciar sesión
+                </a>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-logos text-end p-3">
+        <img src="~/images/logo-ministerio.png" alt="Logos Institucionales" style="height: 40px;" />
+    </div>
+</div>

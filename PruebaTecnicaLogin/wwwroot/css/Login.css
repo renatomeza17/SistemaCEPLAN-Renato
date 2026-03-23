@@ -1,0 +1,140 @@
+﻿/* --- Global --- */
+body {
+    background-color: #F7F7F7; /* Fondo gris muy claro como Figma */
+    font-family: 'Segoe UI', sans-serif;
+    padding-bottom: 80px;
+}
+
+/* --- Cabecera Roja (Header GOB) --- */
+.gob-header {
+    background-color: #A02030; /* Rojo institucional */
+    color: white;
+    padding: 10px 0;
+}
+
+
+
+.gob-header .help-icon {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* --- Login Card --- */
+.login-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra suave */
+    background-color: white;
+    margin-top: 50px;
+}
+
+/* Pestañas (Nav Tabs) */
+.nav-tabs-login .nav-link {
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #6C757D;
+    font-weight: bold;
+}
+
+.nav-tabs-login .nav-link.active {
+    border-bottom: 2px solid #4C82C1; /* Azul del Figma */
+    color: #4C82C1;
+    background-color: transparent;
+}
+
+/* Inputs con Iconos */
+.input-group-login .input-group-text {
+    background-color: white;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.input-group-login .form-control {
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Botón "Ingresar" */
+.btn-ingresar {
+    background-color: #4C82C1; /* Azul de Figma */
+    border-color: #4C82C1;
+    border-radius: 25px; /* rounded-pill */
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-ingresar:hover {
+    background-color: #3C6699;
+}
+
+/* Enlaces pequeños */
+.link-help {
+    color: #6C757D;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+/* Agrega esto al final de tu css/login.css */
+
+/* Fondo especial con la llama y montañas */
+.bg-ceplan-confirm {
+    background-image: url('../images/fondo_ceplan.png');
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 50px); /* Ajuste para la cabecera roja */
+}
+
+/* Icono del cohete con check */
+.confirm-icon {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+/* El texto de bienvenida debe ser más grueso */
+.welcome-text {
+    font-weight: 700;
+    color: #444;
+}
+
+/* El pie de página con los logos */
+.footer-logos {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background-color: white; /* o el color que prefieras si el fondo lo tapa */
+}
+
+.logo-ceplan {
+    /* header menu */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 0px;
+    margin: 0;
+    width: 88px;
+    height: 44px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer-institucional {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Blanco perenne */
+    padding: 15px 30px;
+    border-top: 1px solid #dee2e6; /* Una línea sutil para separar */
+    z-index: 1000; /* Para que siempre esté por encima del contenido */
+}
+
