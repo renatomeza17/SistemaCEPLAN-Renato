@@ -13,7 +13,7 @@ builder.Services.AddHttpContextAccessor();
 //  Configuración de Sesiones (20 minutos)
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromSeconds(10); // Tiempo de inactividad
+    options.IdleTimeout = TimeSpan.FromMinutes(20); // Tiempo de inactividad
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });

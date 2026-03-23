@@ -1,6 +1,6 @@
 ﻿let timeout; 
 let intervaloRegresivo; 
-const tiempoInactividad = 10 * 1000; 
+const tiempoInactividad =20 * 60 * 1000; 
 
 
 

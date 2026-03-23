@@ -71,9 +71,9 @@ namespace PruebaTecnicaLogin.Controllers
 
                 if (user.IntentosFallidos >= 5)
                 {
-                    // BLOQUEO DE 20 MINUTOS
-                    user.BloqueadoHasta = DateTime.Now.AddMinutes(20);
-                    ViewBag.Error = "Has alcanzado el límite de 5 intentos. Cuenta bloqueada por 20 minutos.";
+                    // BLOQUEO DE 15 MINUTOS
+                    user.BloqueadoHasta = DateTime.Now.AddMinutes(15);
+                    ViewBag.Error = "Has alcanzado el límite de 5 intentos. Cuenta bloqueada por 15 minutos.";
                     return RedirectToAction("Bloqueado");
                 }
                 else
